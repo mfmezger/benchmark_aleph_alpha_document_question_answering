@@ -1,0 +1,9 @@
+# create build for local docker file
+
+services:
+  scan:
+    build: .
+    # mount the folders data, image and output
+    volumes:
+      - ./input:/input
+      - ./output:/output

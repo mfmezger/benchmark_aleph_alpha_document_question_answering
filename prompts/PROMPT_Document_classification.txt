@@ -1,0 +1,11 @@
+This application categorizes documents in one of the categories:  "invoice", "mail", "form".
+###
+Document: CRC contnact RESEARCH CENTER  FORW NO: 264 ST CW 85 RMAIMCM  LOCATION OF SOP FROM STUDY PLAN ADDENDUM  soP: no. AL. 1  istocated at: C!Aebia,. AMF, ALF AZO  Date:  Initials:  MAY 1997  Initials SD: A  
+Document type: Form
+###
+Document: Creative Marketing Communication, Inc.  7529 Forsyth Blvd. REFERENCE
+Document type: Invoice
+###
+Document: From: Moskowitz, Seth W.  To: Coggins, ce: BC  Chris  Subject: Jane Brody Articles Primary Date: 9/19/1995 1:06:48 PM  Last Modified Dat Last Touched Date  2001-Nov-21 16:30:11  Sent Date: 1995-Sep-19 13:06:48 Received DateDate: 1995-Sep-19 13:06:48  Attachments: 9SMR_.doc  Chris --  Attached are pulled.  seth  RJRO000000545011941  70056 2517  the Jane Brody ETS articles Barry Miller  veLb Bples  
+Document type: Email
+###

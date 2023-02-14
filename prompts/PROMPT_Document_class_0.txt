@@ -1,0 +1,3 @@
+Document: {}
+###
+Extract the information ('currency', 'totalAmount',) from the ocr read document above. Extraction JSON {"currency":

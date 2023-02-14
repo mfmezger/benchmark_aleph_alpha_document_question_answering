@@ -1,0 +1,3 @@
+Document: {}
+###
+Extract the information ('currency', 'invoiceDate',) from the ocr read document above. Extraction JSON {"currency":
