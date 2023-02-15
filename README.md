@@ -29,4 +29,4 @@ Now you have to decide if you want to run it locally in your environment or use 
 ### Using your local run environment.
 - Install the dependencies using poetry (poetry.org) to do this please do: `pip install poetry`
 - then install the dependencies with: `poetry install`
-- to run the application do: `poetry run main.py`
+- to run the application do: `poetry run python main.py`

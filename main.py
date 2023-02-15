@@ -19,7 +19,7 @@ def main():
     results = retrieval(results, client)
 
     # save the results in a csv file
-    results.to_csv("output/results.csv")
+    results.to_csv("results/results.csv")
 
 
 if __name__ == "__main__":
