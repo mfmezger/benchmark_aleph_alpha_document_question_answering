@@ -78,7 +78,7 @@ def parse_results(results) -> dict:
     return parsed_results
 
 
-def retrieval(results, client):
+def retrieval(results, client) -> pd.DataFrame:
     # create pandas dataframe from the results
     df = pd.DataFrame(columns=["name", "classification", "retrieval"])
     # iterate over the results

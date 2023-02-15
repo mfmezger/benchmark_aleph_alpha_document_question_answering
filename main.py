@@ -5,7 +5,9 @@ from app.query_api import classification, parse_results, retrieval
 from app.scan import ocr, process_pdfs
 
 
-def main():
+def main() -> None:
+    """This is the starting point for the script. First the PDFs are processed and then the OCR is applied. After that the classification is
+    done and the results are saved in a csv file."""
     process_pdfs()
     ocr()
 

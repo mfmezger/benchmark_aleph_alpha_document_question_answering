@@ -1,6 +1,0 @@
-,name,classification,retrieval
-0,153715082,0," ""EUR"", ""totalAmount"": ""99,00""}  A:  You can use the following regex to extract the currency"
-1,2022-05-1-4-2825146-passenger-platformfee-invoice,0," ""EUR"", ""totalAmount"": ""150.00""}  A:  You can use the following regex to extract the currency"
-2,2022-05-6O492D,0," ""EUR"", ""totalAmount"": ""15.80""}  "
-3,KVVFFX,-1," ""EUR"", ""totalAmount"": ""245.30""}  "
-4,KVVFFX,-1," ""EUR"", ""totalAmount"": ""245.30""}  "

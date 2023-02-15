@@ -13,12 +13,12 @@ img_path = "input/images"
 output_path = "output"
 
 
-def grayscale_image(image):
+def grayscale_image(image) -> Image:
     # convert the pillow image to grayscale
     return image.convert("L")
 
 
-def process_pdfs():
+def process_pdfs() -> None:
     # check if in the data folder there are any pdfs
     # if there are, convert them to images
     pdfs = Path(path_pdf).rglob("*.pdf")
@@ -49,7 +49,7 @@ def process_pdfs():
             shutil.copy(f, "images")
 
 
-def ocr():
+def ocr() -> None:
     # collect all files in the images folder
     images = Path(img_path).rglob("*.*")
 
