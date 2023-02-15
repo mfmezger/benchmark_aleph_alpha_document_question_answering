@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Marc Mezger <marc.mezger@gmail.com>"]
 readme = "README.md"
-packages = [{include = "benchmark_aleph_alpha_document_question_answering"}]
 
 [tool.poetry.dependencies]
 python = "^3.10.10"
@@ -18,3 +17,6 @@ pandas = "^1.5.3"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[settings]
+known_third_party = ["PIL", "aleph_alpha_client", "dotenv", "pandas", "pdf2image", "pytesseract"]

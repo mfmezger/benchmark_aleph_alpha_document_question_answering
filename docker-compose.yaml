@@ -3,7 +3,7 @@
 services:
   scan:
     build: .
-    # mount the folders data, image and output
+    # mount the folders image and output
     volumes:
       - ./input:/input
       - ./output:/output
