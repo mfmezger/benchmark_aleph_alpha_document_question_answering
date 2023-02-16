@@ -66,7 +66,7 @@ def parse_results(results) -> dict:
         # if the class is similar in the results, add it to the parsed_results
         for cla in classes:
             for c in classes[cla]:
-                if clean_value.lower() == c:
+                if clean_value.lower() in c:
                     parsed_results[key] = cla
                     break
 
