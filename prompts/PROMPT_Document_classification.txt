@@ -9,3 +9,5 @@ Document type: Invoice
 Document: From: Moskowitz, Seth W.  To: Coggins, ce: BC  Chris  Subject: Jane Brody Articles Primary Date: 9/19/1995 1:06:48 PM  Last Modified Dat Last Touched Date  2001-Nov-21 16:30:11  Sent Date: 1995-Sep-19 13:06:48 Received DateDate: 1995-Sep-19 13:06:48  Attachments: 9SMR_.doc  Chris --  Attached are pulled.  seth  RJRO000000545011941  70056 2517  the Jane Brody ETS articles Barry Miller  veLb Bples  
 Document type: Email
 ###
+{}
+Document type:
