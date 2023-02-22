@@ -18,7 +18,8 @@
 - If you have also images please create a folder for images under the input folder, and create for every document a new folder and put it there, images from the same document should be in the same folder.
 - In the class files you have to define the classes that you want to use. First define the number and then the aliases you want to accept as correct for the class, this must be the same classes that you name in your prompt files. (See next Point)
 - You need to configure your prompt files. You can see some examples in the prompts folder: There you need to define first your prompt to allow for the classification of your documents. Please edit the file `PROMPT_Document_classification.txt`.
-- In the other files please insert the concepts you want to be retrieved for the classes by changing the values in the brackets.
+- In the other files please insert the concepts you want to be retrieved for the classes by changing the values in the brackets. -1 one is a fallback if non of the classes matched.
+
 
 Now you have to decide if you want to run it locally in your environment or use the Dockerized Version. I would recommend the Docker Version
 

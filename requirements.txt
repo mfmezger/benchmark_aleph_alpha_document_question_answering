@@ -95,9 +95,9 @@ aiohttp==3.8.4 ; python_full_version >= "3.10.10" and python_full_version < "4.0
 aiosignal==1.3.1 ; python_full_version >= "3.10.10" and python_full_version < "4.0.0" \
     --hash=sha256:54cd96e15e1649b75d6c87526a6ff0b6c1b0dd3459f43d9ca11d48c339b68cfc \
     --hash=sha256:f8376fb07dd1e86a584e4fcdec80b36b7f81aac666ebc724e2c090300dd83b17
-aleph-alpha-client==2.13.0 ; python_full_version >= "3.10.10" and python_full_version < "4.0.0" \
-    --hash=sha256:16bf844ccf9ddd32ddb637d359a177141a5f144a447ba7f14c5c5a3f682f692f \
-    --hash=sha256:c156db39fcaef1206f87f075b1fe1d3078728cbf22d5d6af413f13ce0a883958
+aleph-alpha-client==2.15.0 ; python_full_version >= "3.10.10" and python_full_version < "4.0.0" \
+    --hash=sha256:1cc0e17cd5f4a578f10e3cc22379f9e6765fed112108bcd84d5e3a77a094c58f \
+    --hash=sha256:b50329572c319fbf0d17fab3e34a46c15f164931f40ff6eb2379c8276d4728fa
 async-timeout==4.0.2 ; python_full_version >= "3.10.10" and python_full_version < "4.0.0" \
     --hash=sha256:2163e1640ddb52b7a8c80d0a67a08587e5d245cc9c553a74a847056bc2976b15 \
     --hash=sha256:8ca1e4fcf50d07413d66d1a5e416e42cfdf5851c981d679a09851a6853383b3c
