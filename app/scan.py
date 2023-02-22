@@ -1,5 +1,6 @@
 # import the necessary packages
 import os
+import shutil
 from pathlib import Path
 
 import pytesseract
