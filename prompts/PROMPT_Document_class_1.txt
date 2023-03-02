@@ -1,3 +1,3 @@
 Document: {}
 ###
-Extract the information ('currency', 'invoiceNo',) from the ocr read document above. Extraction JSON {"currency":
+Extract the information ('currency', 'invoiceNo','destination') from the ocr read document above. Extraction JSON {"currency":

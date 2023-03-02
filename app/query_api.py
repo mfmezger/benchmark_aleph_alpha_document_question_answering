@@ -6,6 +6,15 @@ from aleph_alpha_client import CompletionRequest, Prompt
 
 
 def classification(client) -> dict:
+    """This method does the classification of the documents.
+
+    Args:
+        client (aleph_alpha_client): The client to connect to the API.
+
+    Returns:
+        dict: The results of the classification.
+    """
+
     # get the prompt from the prompt folder
     results = {}
 
@@ -37,7 +46,6 @@ def classification(client) -> dict:
                 response = client.complete(request, model="luminous-extended")
 
                 response = response.completions[0].completion
-
                 # save the classification in the results dictionary
                 results[folder] = response
 
@@ -95,7 +103,11 @@ def retrieval(results, client) -> pd.DataFrame:
 
             prompt = prompt.replace("{}", text)
 
-            request = CompletionRequest(prompt=Prompt.from_text(prompt), maximum_tokens=30, stop_sequences=["###"])
+            request = CompletionRequest(
+                prompt=Prompt.from_text(prompt),
+                maximum_tokens=30,
+                stop_sequences=["###"],
+            )
             response = client.complete(request, model="luminous-extended")
 
             response = response.completions[0].completion
