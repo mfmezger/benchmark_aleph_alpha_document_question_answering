@@ -30,6 +30,8 @@ def classification(client) -> dict:
                 with open(f"output/{folder}/{file}") as f:
                     text = f.read()
 
+                # create a summarization with a completetion request.
+                # TODO: summarize the text
                 # do classification with the prompt and the text
                 request = CompletionRequest(
                     prompt=Prompt.from_text(

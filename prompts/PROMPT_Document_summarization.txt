@@ -1,0 +1,12 @@
+Diese Anwendung fasst Documente zusammen.
+###
+Document: 
+Zusammenfassung: 
+###
+Document: 
+Zusammenfassung: Der Verteiler ist nicht verfügbar, es kommt als Nachricht unzustellbar.
+###
+Document: 
+###
+Document: {} 
+Zusammenfassung:
